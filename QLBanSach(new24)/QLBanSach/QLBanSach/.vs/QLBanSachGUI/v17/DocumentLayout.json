@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE84BD3-0A56-49B6-A793-2D603C280684}|QLBanSachGUI\\QLBanSachGUI.csproj|f:\\ltwindows\\tailieu\\lythuyet\\qlbansach\\qlbansachgui\\qlbansachgui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE84BD3-0A56-49B6-A793-2D603C280684}|QLBanSachGUI\\QLBanSachGUI.csproj|solutionrelative:qlbansachgui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE84BD3-0A56-49B6-A793-2D603C280684}|QLBanSachGUI\\QLBanSachGUI.csproj|F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\qlbansachgui\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE84BD3-0A56-49B6-A793-2D603C280684}|QLBanSachGUI\\QLBanSachGUI.csproj|solutionrelative:qlbansachgui\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE84BD3-0A56-49B6-A793-2D603C280684}|QLBanSachGUI\\QLBanSachGUI.csproj|F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\qlbansachgui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEE84BD3-0A56-49B6-A793-2D603C280684}|QLBanSachGUI\\QLBanSachGUI.csproj|solutionrelative:qlbansachgui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C472614-810C-49B4-B822-917837BFA7D4}|QLBanSachDTO\\QLBanSachDTO.csproj|F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\qlbansachdto\\tk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C472614-810C-49B4-B822-917837BFA7D4}|QLBanSachDTO\\QLBanSachDTO.csproj|solutionrelative:qlbansachdto\\tk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7661074-76CE-4DD3-8A30-D2AC440B5C1C}|QLBanSachDAL\\QLBanSachDAL.csproj|F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\qlbansachdal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7661074-76CE-4DD3-8A30-D2AC440B5C1C}|QLBanSachDAL\\QLBanSachDAL.csproj|solutionrelative:qlbansachdal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE84BD3-0A56-49B6-A793-2D603C280684}|QLBanSachGUI\\QLBanSachGUI.csproj|F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\qlbansachgui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE84BD3-0A56-49B6-A793-2D603C280684}|QLBanSachGUI\\QLBanSachGUI.csproj|solutionrelative:qlbansachgui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16577305-C71D-483B-A134-00FB881D1CC7}|QLBanSachBLL\\QLBanSachBLL.csproj|F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\qlbansachbll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16577305-C71D-483B-A134-00FB881D1CC7}|QLBanSachBLL\\QLBanSachBLL.csproj|solutionrelative:qlbansachbll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachGUI\\DangNhap.cs",
+              "RelativeDocumentMoniker": "QLBanSachGUI\\DangNhap.cs",
+              "ToolTip": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachGUI\\DangNhap.cs",
+              "RelativeToolTip": "QLBanSachGUI\\DangNhap.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:16:55.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DangNhap.Designer.cs",
+              "DocumentMoniker": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachGUI\\DangNhap.Designer.cs",
+              "RelativeDocumentMoniker": "QLBanSachGUI\\DangNhap.Designer.cs",
+              "ToolTip": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachGUI\\DangNhap.Designer.cs",
+              "RelativeToolTip": "QLBanSachGUI\\DangNhap.Designer.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAuwHgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T16:24:57.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaiKhoanBLL.cs",
+              "DocumentMoniker": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachBLL\\TaiKhoanBLL.cs",
+              "RelativeDocumentMoniker": "QLBanSachBLL\\TaiKhoanBLL.cs",
+              "ToolTip": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachBLL\\TaiKhoanBLL.cs",
+              "RelativeToolTip": "QLBanSachBLL\\TaiKhoanBLL.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T16:41:38.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachGUI\\Program.cs",
+              "RelativeDocumentMoniker": "QLBanSachGUI\\Program.cs",
+              "ToolTip": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachGUI\\Program.cs",
+              "RelativeToolTip": "QLBanSachGUI\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T16:09:20.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachDAL\\DataBase.cs",
+              "RelativeDocumentMoniker": "QLBanSachDAL\\DataBase.cs",
+              "ToolTip": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachDAL\\DataBase.cs",
+              "RelativeToolTip": "QLBanSachDAL\\DataBase.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:57:29.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TK.cs",
+              "DocumentMoniker": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachDTO\\TK.cs",
+              "RelativeDocumentMoniker": "QLBanSachDTO\\TK.cs",
+              "ToolTip": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachDTO\\TK.cs",
+              "RelativeToolTip": "QLBanSachDTO\\TK.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:52:25.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachGUI\\DangNhap.cs",
+              "RelativeDocumentMoniker": "QLBanSachGUI\\DangNhap.cs",
+              "ToolTip": "F:\\LTWINDOWS\\TaiLieu\\LyThuyet\\QLBanSach\\QLBanSachGUI\\QLBanSachGUI\\DangNhap.cs [Design]",
+              "RelativeToolTip": "QLBanSachGUI\\DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:10:32.835Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
