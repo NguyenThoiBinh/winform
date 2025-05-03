@@ -1,14 +1,29 @@
 # Visual Studio
 .vs/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> cuong/master
 .vscode/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+<<<<<<< HEAD
+=======
+=======
+*.user
+*.suo
+>>>>>>> 4099856 (Thêm .gitignore và xóa các file không cần theo dõi)
+>>>>>>> cuong/master
 
 # Build results
 bin/
 obj/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> cuong/master
 [Bb]uild/
 [Bb]uild[Ll]og.*
 
@@ -46,3 +61,20 @@ artifacts/
 
 # Auto-generated
 Generated_Code/
+<<<<<<< HEAD
+=======
+=======
+
+# Debug / Release
+*.pdb
+*.exe
+*.dll
+
+# Others
+*.cache
+*.log
+*.tlog
+*.tmp
+*.bak
+>>>>>>> 4099856 (Thêm .gitignore và xóa các file không cần theo dõi)
+>>>>>>> cuong/master

@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Data.SqlClient;
+=======
+>>>>>>> cuong/master
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +18,7 @@ namespace QLBanSachDAL
             string info = CheckLogicDTO(taikhoan);
             return info;
         }
+<<<<<<< HEAD
         public static string LayMaNV(string username)
         {
             string maNV = null;
@@ -64,5 +68,7 @@ namespace QLBanSachDAL
             return role;
         }
 
+=======
+>>>>>>> cuong/master
     }
 }

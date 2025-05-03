@@ -12,6 +12,7 @@ namespace QLBanSachGUI
 {
     public partial class home : Form
     {
+<<<<<<< HEAD
         private string maNhanVien;
         private string tenNhanVien;
         private string role; // thêm biến role
@@ -27,6 +28,12 @@ namespace QLBanSachGUI
             {
                 btnQLNhanVien.BackColor = Color.Gray;
             }
+=======
+        public home()
+        {
+            InitializeComponent();
+            tabControl1.Dock = DockStyle.Fill;
+>>>>>>> cuong/master
         }
         private Dictionary<int, Rectangle> closeButtonBounds = new Dictionary<int, Rectangle>();
 
@@ -39,11 +46,21 @@ namespace QLBanSachGUI
                 return;
             }
 
+<<<<<<< HEAD
             TabPage newTab = new TabPage("Bán hàng: ");
             ucBanHang uc = new ucBanHang(maNhanVien, tenNhanVien); // ✅ truyền đúng
             uc.Dock = DockStyle.Fill;
             newTab.Controls.Add(uc);
 
+=======
+            // Tạo 1 tab mới và nhúng UserControl vào
+            TabPage newTab = new TabPage("Bán hàng: ");
+            ucBanHang uc = new ucBanHang();
+            uc.Dock = DockStyle.Fill;
+            newTab.Controls.Add(uc);
+
+            // Thêm vào tabControl
+>>>>>>> cuong/master
             tabControl1.TabPages.Add(newTab);
             tabControl1.SelectedTab = newTab;
         }
@@ -88,6 +105,7 @@ namespace QLBanSachGUI
 
         private void btnQLNhanVien_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             // ✅ Nếu không phải admin thì chặn
             if (role != "admin")
             {               
@@ -95,6 +113,8 @@ namespace QLBanSachGUI
                 return;
             }
 
+=======
+>>>>>>> cuong/master
             if (tabControl1.TabPages.Count >= 10)
             {
                 MessageBox.Show("Chỉ được mở tối đa 10 tab!", "Giới hạn", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -273,4 +293,8 @@ namespace QLBanSachGUI
 
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cuong/master

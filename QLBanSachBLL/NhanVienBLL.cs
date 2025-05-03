@@ -5,6 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using QLBanSachDAL;
 using QLBanSachDTO;
+<<<<<<< HEAD
+=======
+
+>>>>>>> cuong/master
 namespace QLBanSachBLL
 {
     public class NhanVienBLL
@@ -29,6 +33,10 @@ namespace QLBanSachBLL
             return NhanVienDAL.XoaNhanVien(maNV);
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cuong/master
         public static List<NhanVienDTO> TimKiem(string keyword)
         {
             return NhanVienDAL.TimKiem(keyword);

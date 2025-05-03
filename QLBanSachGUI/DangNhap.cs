@@ -20,6 +20,7 @@ namespace QLBanSachGUI
         public DangNhap()
         {
             InitializeComponent();
+<<<<<<< HEAD
         }
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -33,12 +34,28 @@ namespace QLBanSachGUI
                     MessageBox.Show("Tài khoản không được để trống");
                     return;
                 case "required_password":
+=======
+        }      
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            taikhoan.UserName = txtTaiKhoan.Text;
+            taikhoan.PassWord = txtMatKhau.Text;
+            string getuser = TKBLL.CheckLogic(taikhoan);
+            //Check 
+            switch (getuser)
+            {
+                case "requeid_taikhoan":
+                    MessageBox.Show("Tài khoản không được để trống");
+                    return;
+                case "requeid_password":
+>>>>>>> cuong/master
                     MessageBox.Show("Mật khẩu không được để trống");
                     return;
                 case "Tài khoản hoặc mật khẩu không chính xác!":
                     MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!");
                     return;
             }
+<<<<<<< HEAD
 
             // ✅ Lấy thông tin nhân viên
             string maNV = TKBLL.LayMaNV(taikhoan.UserName);
@@ -50,6 +67,17 @@ namespace QLBanSachGUI
             this.Hide();
             home frmHome = new home(maNV, tenNV, role); // ✅ truyền role
             frmHome.ShowDialog();
+=======
+            MessageBox.Show("Đăng nhập thành công");
+            // Ẩn form đăng nhập
+            this.Hide();
+
+            // Mở form home
+            home frmHome = new home();
+            frmHome.ShowDialog();
+
+            // Sau khi đóng form home thì thoát
+>>>>>>> cuong/master
             this.Close();
         }
         private void button1_Click(object sender, EventArgs e)
@@ -103,4 +131,8 @@ namespace QLBanSachGUI
 
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cuong/master

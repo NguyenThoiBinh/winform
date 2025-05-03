@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<<<<<<< HEAD
+=======
+  
+>>>>>>> cuong/master
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -13,6 +17,10 @@
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
+<<<<<<< HEAD
+=======
+
+>>>>>>> cuong/master
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -22,6 +30,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+<<<<<<< HEAD
+=======
+
+>>>>>>> cuong/master
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
@@ -30,6 +42,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+<<<<<<< HEAD
+=======
+
+>>>>>>> cuong/master
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -40,11 +56,22 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+
+>>>>>>> cuong/master
   <ItemGroup>
     <Compile Include="DataBase.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="KhachHangDAL.cs" />
+<<<<<<< HEAD
     <Compile Include="NhanVienDAL.cs" />
+=======
+    <Compile Include="NhaCungCapDAL.cs" />
+    <Compile Include="NhanVienDAL.cs" />
+    <Compile Include="SachDAL.cs" />
+    <Compile Include="TKAccess.cs" />
+>>>>>>> cuong/master
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -56,15 +83,24 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuanLyBanSachDataSet.xsd</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="SachDAL.cs" />
     <Compile Include="TKAccess.cs" />
   </ItemGroup>
+=======
+  </ItemGroup>
+
+>>>>>>> cuong/master
   <ItemGroup>
     <ProjectReference Include="..\QLBanSachDTO\QLBanSachDTO.csproj">
       <Project>{6c472614-810c-49b4-b822-917837bfa7d4}</Project>
       <Name>QLBanSachDTO</Name>
     </ProjectReference>
   </ItemGroup>
+<<<<<<< HEAD
+=======
+
+>>>>>>> cuong/master
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
@@ -83,5 +119,11 @@
       <DependentUpon>QuanLyBanSachDataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
+<<<<<<< HEAD
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
+=======
+
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
+>>>>>>> cuong/master

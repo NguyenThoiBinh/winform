@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 ﻿using QLBanSachDAL;
 using QLBanSachDTO;
+=======
+﻿
+>>>>>>> cuong/master
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
 
+=======
+using QLBanSachDAL;
+using QLBanSachDTO;
+>>>>>>> cuong/master
 namespace QLBanSachBLL
 {
     public class KhachHangBLL

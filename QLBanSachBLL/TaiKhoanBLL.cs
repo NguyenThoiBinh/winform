@@ -18,6 +18,7 @@ namespace QLBanSachBLL
                 return "required_password";
 
             string info = tkAccess.CheckLogic(taikhoan);
+<<<<<<< HEAD
             if (info == "fail")
                 return "Tài khoản hoặc mật khẩu không chính xác!";
             return info;
@@ -37,5 +38,10 @@ namespace QLBanSachBLL
         {
             return TKAccess.LayRole(username);
         }
+=======
+            return info;
+        }
+
+>>>>>>> cuong/master
     }
 }

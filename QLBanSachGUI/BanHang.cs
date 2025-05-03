@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using QLBanSachDTO;
 using System.Data.SqlClient;
 using QLBanSachDAL;
+=======
+>>>>>>> cuong/master
 
 namespace QLBanSachGUI
 {
     public partial class ucBanHang : UserControl
     {
+<<<<<<< HEAD
         private string currentSoHD = "";
         private DataTable dtChiTietHD = new DataTable();
         private string maNV, tenNV;
@@ -277,5 +281,21 @@ namespace QLBanSachGUI
         }
 
    
+=======
+        public ucBanHang()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+        }
+>>>>>>> cuong/master
     }
 }

@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cuong/master
 namespace QLBanSachDTO
 {
     public class HoaDonDTO
