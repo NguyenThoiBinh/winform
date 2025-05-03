@@ -13,7 +13,7 @@ namespace QLBanSachDAL
         //Tạo chuỗi kết nối CSDL
         public static SqlConnection Connect()
         {
-            string Strconn = @"Data Source=WINDOWS-PC;Initial Catalog=QuanLyBanSach;Integrated Security=True;Encrypt=False";
+            string Strconn = @"Data Source=.;Initial Catalog=QuanLyBanSach;Integrated Security=True;Encrypt=False";
             SqlConnection conn = new SqlConnection(Strconn);//Khởi tạo Connect
             return conn;
         }

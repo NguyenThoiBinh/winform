@@ -1,14 +1,20 @@
 # Visual Studio
 .vs/
+<<<<<<< HEAD
 .vscode/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+=======
+*.user
+*.suo
+>>>>>>> 4099856 (Thêm .gitignore và xóa các file không cần theo dõi)
 
 # Build results
 bin/
 obj/
+<<<<<<< HEAD
 [Bb]uild/
 [Bb]uild[Ll]og.*
 
@@ -46,3 +52,17 @@ artifacts/
 
 # Auto-generated
 Generated_Code/
+=======
+
+# Debug / Release
+*.pdb
+*.exe
+*.dll
+
+# Others
+*.cache
+*.log
+*.tlog
+*.tmp
+*.bak
+>>>>>>> 4099856 (Thêm .gitignore và xóa các file không cần theo dõi)

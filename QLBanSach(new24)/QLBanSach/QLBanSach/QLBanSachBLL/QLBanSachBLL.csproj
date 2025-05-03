@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="KhachHangBLL.cs" />
+=======
+>>>>>>> 4099856 (Thêm .gitignore và xóa các file không cần theo dõi)
     <Compile Include="NhanVienBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SachBLL.cs" />
